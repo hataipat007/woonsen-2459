@@ -16,8 +16,4 @@ export class CategoryController {
 
     }
 
-    @Get('user/:userid')
-    findByUserId(@Body('userid') userid: string) {
-        return this.service.findByUserId(userid);
-    }
 }
